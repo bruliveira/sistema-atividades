@@ -48,8 +48,4 @@ def server(host = 'localhost', port=8082):
                 print("->", hora_data)
                 client.send(op)
                 client.close()
-            if(op == 0):
-                print("Tchauu")
-                client.send(op)
-                client.close()
 server()
