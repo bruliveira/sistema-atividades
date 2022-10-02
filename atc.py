@@ -9,7 +9,7 @@ def client(host = 'localhost', port=8082):
     sock.connect(server_address)
     
     try:
-        op = input("O que você deseja:\n1 - Data\n2 - Hora\n3 - Data e Hora\n0 - Sair\n")
+        op = input("O que você deseja:\n1 - Data\n2 - Hora\n3 - Data e Hora\n")
         
         print ("Enviando opção %s" % op)
         
